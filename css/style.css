@@ -20,9 +20,15 @@ header{
     position: relative;
     
 }
+#nnn{
+    border: none;
+    outline: none;
+}
+
 .info{
-    position: absolute;
+    /* position: absolute; */
     bottom: 3rem;
+    
 }
 
 

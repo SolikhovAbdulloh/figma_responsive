@@ -13,7 +13,7 @@
     />
     <title>homework</title>
   </head>
-  <body class="bg-[#222831]">
+  <body>
     <header>
       <div class="contiener">
         <div class="navbar flex items-center justify-between">
@@ -44,11 +44,10 @@
       </div>
     </header>
 
-    <main>
-
-      <section class="information" >
-        <div class="contiener ">
-          <div class="info rounded-[30px] w-[1240px] h-[277px] bg-white">
+    <main class="bg-[#222831]">
+      <section class="information">
+        <div class="contiener">
+          <div class="info rounded-[30px] w-[100%] h-[277px] bg-white">
             <div class="flex_info flex items-center gap-[50px] p-4">
               <a
                 href="#"
@@ -97,50 +96,157 @@
             </div>
             <div class="pt-4 p-4 flex items-center justify-between">
               <div
-                class="flex items-center gap-2 border-[0.50px] border-[solid] border-[#000] rounded-[10px] w-[363px] h-[48px]"
+                class="flex nnn items-center gap-2 border-[0.50px] border-[solid] border-[#000] rounded-[10px] w-[363px] h-[48px]"
               >
                 <img src="/imges/air1.svg" alt="" />
-                <p class="text-[#5f5f5f]">from</p>
+                <input type="text" placeholder="from" id="nnn" />
               </div>
               <img src="/imges/change btn.png" alt="" />
               <div
                 class="flex items-center gap-2 border-[0.50px] border-[solid] border-[#000] rounded-[10px] w-[363px] h-[48px]"
               >
                 <img src="/imges/air2.svg" alt="" />
-                <p class="text-[#5f5f5f]">to</p>
+                <input type="text" name="" id="nnn" placeholder="to" />
               </div>
               <div
-                class="border-[0.50px] border-[solid] flex items-center gap-3 border-[#000] rounded-[10px] w-[174px] h-[48px]"
+                class="border-[0.50px] justify-center border-[solid] flex items-center gap-3 border-[#000] rounded-[10px] w-[174px] h-[48px]"
               >
-                <img src="/imges/kalendar.svg" alt="d" />
-                <p>
-                  Departing <br />
-                  10 july
-                </p>
+                <input type="date" />
               </div>
               <div
-                class="border-[0.50px] border-[solid] flex items-center gap-3 border-[#000] rounded-[10px] w-[174px] h-[48px]" >
-                <img src="/imges/kalendar.svg" alt="d" />
-                <p>
-                  Returning <br />
-                  10 july
-                </p>
+                class="border-[0.50px] border-[solid] flex justify-center items-center gap-3 border-[#000] rounded-[10px] w-[174px] h-[48px]"
+              >
+                <!-- <img src="/imges/kalendar.svg" alt="d" /> -->
+                <input type="date" name="asd" id="asd" />
               </div>
+            </div>
+            <div class="flex justify-center items-center">
+              <button type="button" class="button">Search</button>
             </div>
           </div>
         </div>
       </section>
 
+      <section>
+        <div class="contiener">
+          <h3 class="font-semibold text-[32px] text-[#fff] >">
+            Top Most Popular Destinations
+          </h3>
+          <br />
+          <div
+            class="flex_global flex justify-around items-center flex-wrap gap-5"
+          >
+            <div
+              class="flex_left flex flex-col items-center gap-5 justify-center"
+            >
+              <img src="/imges/rasm1.png" alt="" />
+              <div class="flex gap-4">
+                <img src="/imges/rasm2.svg" alt="" />
+                <img src="/imges/rasm3.svg" alt="" />
+              </div>
+            </div>
+            <div class="flex gap-4">
+              <img src="/imges/rasm4.svg" alt="" />
+              <img src="/imges/rasm5.svg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
 
-
-
-
-
-
+      <section>
+        <div class="contiener">
+          <h3 class="font-semibold text-[32px] text-center text-[#fff]">
+            Download <br />
+            Expedia App !
+          </h3>
+          <br />
+          <div class="flex items-center gap-3 justify-center">
+            <a href="#"><img src="/imges/play.png" alt="sa" /></a>
+            <a href="#"><img src="/imges/appstore.png" alt="d" /></a>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <footer class="bg-[#133b5c]">
+      <div class="contiener flex justify-between items-start">
+        <div class="flex flex-col gap-[140px]">
+          <a href="#"><img src="/imges/logo.png" alt="as" /></a>
+          <a href="#"
+            >© 2021 Expedia, <br />
+            Inc., an Expedia Group company. All rights <br />
+            reserved.
+          </a>
+        </div>
+
+        <div class="flex items-start flex-col gap-[20px]">
+          <h3
+            class="font-bold text-[16px] tracking-wider text-center text-[#fff]"
+          >
+            Company
+          </h3>
+          <a href="#">About us</a>
+          <a href="#">Jobs</a>
+          <a href="#">List your propoty</a>
+          <a href="#">Partnership</a>
+          <a href="#">Adverstitng</a>
+        </div>
+        <div class="flex items-start flex-col gap-[20px]">
+          <h3
+            class="font-bold text-[16px] tracking-wider text-center text-[#fff]"
+          >
+            Explore
+          </h3>
+          <a href="#">About us</a>
+          <a href="#">Jobs</a>
+          <a href="#">List your propoty</a>
+          <a href="#">Partnership</a>
+          <a href="#">Adverstitng</a>
+        </div>
+        <div class="flex items-start flex-col gap-[20px]">
+          <h3
+            class="font-bold text-[16px] tracking-wider text-center text-[#fff]"
+          >
+           Term vs polices
+          </h3>
+          <a href="#">About us</a>
+          <a href="#">Jobs</a>
+          <a href="#">List your propoty</a>
+          <a href="#">Partnership</a>
+          <a href="#">Adverstitng</a>
+        </div>
+        <div class="flex items-start flex-col gap-[20px]">
+          <h3
+            class="font-bold text-[16px] tracking-wider text-center text-[#fff]"
+          >
+           Help
+          </h3>
+          <a href="#">About us</a>
+          <a href="#">Jobs</a>
+          <a href="#">List your propoty</a>
+          <a href="#">Partnership</a>
+          <a href="#">Adverstitng</a>
+        </div>
+        <div class="flex flex-col justify-between items-center gap-[100px]"> 
+         <div class=" flex flex-col items-center">
+
+             <h3
+             class="font-bold text-[16px] tracking-wider text-center text-[#fff]"
+             >
+             Get in touch
+            </h3>
+            <br>
+            <a href="#">We’d love to hear from you</a><br>
+            <a href="#">Question or feedback?</a>
+            
+        </div>
+            <div class= "flex  gap-5 ">
+           <a href="#"><i class="fa-brands fa-instagram fa-flip text-white"></i></a>
+            <a href="#"> <i class="fa-brands fa-linkedin fa-flip text-white"></i> </a>
+        <a href="#">
+            <i class="fa-brands fa-twitter fa-flip text-white"></i>        </a>          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
-
-<!-- <i class="fa-brands fa-linkedin fa-flip"></i>
-<i class="fa-brands fa-instagram fa-flip"></i>
-<i class="fa-brands fa-twitter fa-flip"></i> -->
