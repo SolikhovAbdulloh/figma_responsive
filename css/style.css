@@ -105,3 +105,64 @@ button:hover {
         font-size: 8px;
     }
 }
+@media(max-width:851px){
+    .nnn{
+        width: 200px;
+      
+    }
+    .ddd{
+        display: none;
+    }
+    .gg{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+    }
+    .hhh{
+        display: none;
+    }
+    .bb{
+        display: none;
+    }
+}
+@media (max-width:731px){
+    .grii{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .nnn{
+        display: none;
+    }
+    .aaa{
+        display: grid;
+        grid-template-columns: repeat(3,3fr);
+    }
+}
+
+@media (max-width:1323px){
+    .foo{
+        display: grid;
+        grid-template-columns: repeat(3,3fr);
+        gap: 40px;
+    }
+}
+@media (max-width:983px){
+    .foo{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        gap: 40px;
+    }
+}
+@media (max-width:513px){
+    .foo{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 40px;
+    }
+}
+@media (max-width:559px){
+    .date{
+        display: none;
+    }
+}
